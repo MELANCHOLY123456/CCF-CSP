@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CCF_CSP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-juzhenchongsu_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-juzhenchongsu_01-Debug-2871f56c5e9e644bbf33.json",
+					"name" : "01-juzhenchongsu_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-juzhenchongsu_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-juzhenchongsu_02-Debug-6dda17798a0d7340202f.json",
+					"name" : "02-juzhenchongsu_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-wenbenfenci::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-wenbenfenci-Debug-4d64804fb4677719f4b0.json",
+					"name" : "03-wenbenfenci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CCF_CSP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CCF_CSP-Debug-c562ac8c74ad14ff9604.json",
+					"name" : "CCF_CSP",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/CCF-CSP/cmake-build-debug",
+		"source" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/CCF-CSP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
