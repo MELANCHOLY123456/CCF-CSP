@@ -5,8 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(CCF_CSP main.cpp)
 
-add_executable(01-xianzhijisuan 28/01-xianzhijisuan.cpp)
-
 add_executable(01-tiandizhangliang 29/01-tiandizhangliang.cpp)
 add_executable(02-kentianjihua 29/02-kentianjihua.cpp)
 
