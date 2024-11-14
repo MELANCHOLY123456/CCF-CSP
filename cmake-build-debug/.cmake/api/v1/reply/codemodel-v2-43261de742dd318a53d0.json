@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CCF_CSP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-cangkuguihua::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-cangkuguihua-Debug-17972920d54acebde561.json",
+					"name" : "01-cangkuguihua",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-chongfujumian::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-chongfujumian-Debug-35b566870b29d9ef4310.json",
+					"name" : "01-chongfujumian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-cipintongji::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-cipintongji-Debug-223d62dde4117a2ab831.json",
+					"name" : "01-cipintongji",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-juzhenchongsu_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-juzhenchongsu_01-Debug-f17acfbf0a628c766b0e.json",
+					"name" : "01-juzhenchongsu_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-tiandizhangliang::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-tiandizhangliang-Debug-0c1eec3445447ac52e99.json",
+					"name" : "01-tiandizhangliang",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-zuobiaobianhuan_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-zuobiaobianhuan_01-Debug-9bf373c03c794c6835f4.json",
+					"name" : "01-zuobiaobianhuan_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-juzhenchongsu_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-juzhenchongsu_02-Debug-08a3511d568b302473ac.json",
+					"name" : "02-juzhenchongsu_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-juzhenyunsuan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-juzhenyunsuan-Debug-5100847659a484aa4caf.json",
+					"name" : "02-juzhenyunsuan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-kentianjihua::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-kentianjihua-Debug-1dc8f3d654fee4a13a26.json",
+					"name" : "02-kentianjihua",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-xiangsidujisuan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-xiangsidujisuan-Debug-9629fd216ed740346db2.json",
+					"name" : "02-xiangsidujisuan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-yinzihuajian::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-yinzihuajian-Debug-e736f0ceb07311600a8f.json",
+					"name" : "02-yinzihuajian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-zuobiaobianhuan_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-zuobiaobianhuan_02-Debug-4c00a8ea4cbb7153034f.json",
+					"name" : "02-zuobiaobianhuan_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-wenbenfenci::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-wenbenfenci-Debug-366dba12b68d42b50980.json",
+					"name" : "03-wenbenfenci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CCF_CSP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CCF_CSP-Debug-8699e15e106ff8f710ec.json",
+					"name" : "CCF_CSP",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/CCF-CSP/cmake-build-debug",
+		"source" : "D:/\u6211\u7684\u5b66\u4e60\u8d44\u6e90/CCF-CSP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

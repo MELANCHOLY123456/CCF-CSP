@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_CCF_CSP: phony || .
 
 build CMakeFiles/CCF_CSP.dir/main.cpp.obj: CXX_COMPILER__CCF_CSP_unscanned_Debug D$:/我的学习资源/CCF-CSP/main.cpp || cmake_object_order_depends_target_CCF_CSP
   DEP_FILE = CMakeFiles\CCF_CSP.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CCF_CSP.dir
   OBJECT_FILE_DIR = CMakeFiles\CCF_CSP.dir
 
@@ -74,6 +74,336 @@ build CCF_CSP.exe: CXX_EXECUTABLE_LINKER__CCF_CSP_Debug CMakeFiles/CCF_CSP.dir/m
   TARGET_PDB = CCF_CSP.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 01-tiandizhangliang
+
+
+#############################################
+# Order-only phony target for 01-tiandizhangliang
+
+build cmake_object_order_depends_target_01-tiandizhangliang: phony || .
+
+build CMakeFiles/01-tiandizhangliang.dir/29/01-tiandizhangliang.cpp.obj: CXX_COMPILER__01-tiandizhangliang_unscanned_Debug D$:/我的学习资源/CCF-CSP/29/01-tiandizhangliang.cpp || cmake_object_order_depends_target_01-tiandizhangliang
+  DEP_FILE = CMakeFiles\01-tiandizhangliang.dir\29\01-tiandizhangliang.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-tiandizhangliang.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-tiandizhangliang.dir\29
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-tiandizhangliang
+
+
+#############################################
+# Link the executable 01-tiandizhangliang.exe
+
+build 01-tiandizhangliang.exe: CXX_EXECUTABLE_LINKER__01-tiandizhangliang_Debug CMakeFiles/01-tiandizhangliang.dir/29/01-tiandizhangliang.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-tiandizhangliang.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-tiandizhangliang.exe
+  TARGET_IMPLIB = lib01-tiandizhangliang.dll.a
+  TARGET_PDB = 01-tiandizhangliang.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-kentianjihua
+
+
+#############################################
+# Order-only phony target for 02-kentianjihua
+
+build cmake_object_order_depends_target_02-kentianjihua: phony || .
+
+build CMakeFiles/02-kentianjihua.dir/29/02-kentianjihua.cpp.obj: CXX_COMPILER__02-kentianjihua_unscanned_Debug D$:/我的学习资源/CCF-CSP/29/02-kentianjihua.cpp || cmake_object_order_depends_target_02-kentianjihua
+  DEP_FILE = CMakeFiles\02-kentianjihua.dir\29\02-kentianjihua.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-kentianjihua.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-kentianjihua.dir\29
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-kentianjihua
+
+
+#############################################
+# Link the executable 02-kentianjihua.exe
+
+build 02-kentianjihua.exe: CXX_EXECUTABLE_LINKER__02-kentianjihua_Debug CMakeFiles/02-kentianjihua.dir/29/02-kentianjihua.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-kentianjihua.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-kentianjihua.exe
+  TARGET_IMPLIB = lib02-kentianjihua.dll.a
+  TARGET_PDB = 02-kentianjihua.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-chongfujumian
+
+
+#############################################
+# Order-only phony target for 01-chongfujumian
+
+build cmake_object_order_depends_target_01-chongfujumian: phony || .
+
+build CMakeFiles/01-chongfujumian.dir/30/01-chongfujumian.cpp.obj: CXX_COMPILER__01-chongfujumian_unscanned_Debug D$:/我的学习资源/CCF-CSP/30/01-chongfujumian.cpp || cmake_object_order_depends_target_01-chongfujumian
+  DEP_FILE = CMakeFiles\01-chongfujumian.dir\30\01-chongfujumian.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-chongfujumian.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-chongfujumian.dir\30
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-chongfujumian
+
+
+#############################################
+# Link the executable 01-chongfujumian.exe
+
+build 01-chongfujumian.exe: CXX_EXECUTABLE_LINKER__01-chongfujumian_Debug CMakeFiles/01-chongfujumian.dir/30/01-chongfujumian.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-chongfujumian.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-chongfujumian.exe
+  TARGET_IMPLIB = lib01-chongfujumian.dll.a
+  TARGET_PDB = 01-chongfujumian.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-juzhenyunsuan
+
+
+#############################################
+# Order-only phony target for 02-juzhenyunsuan
+
+build cmake_object_order_depends_target_02-juzhenyunsuan: phony || .
+
+build CMakeFiles/02-juzhenyunsuan.dir/30/02-juzhenyunsuan.cpp.obj: CXX_COMPILER__02-juzhenyunsuan_unscanned_Debug D$:/我的学习资源/CCF-CSP/30/02-juzhenyunsuan.cpp || cmake_object_order_depends_target_02-juzhenyunsuan
+  DEP_FILE = CMakeFiles\02-juzhenyunsuan.dir\30\02-juzhenyunsuan.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-juzhenyunsuan.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-juzhenyunsuan.dir\30
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-juzhenyunsuan
+
+
+#############################################
+# Link the executable 02-juzhenyunsuan.exe
+
+build 02-juzhenyunsuan.exe: CXX_EXECUTABLE_LINKER__02-juzhenyunsuan_Debug CMakeFiles/02-juzhenyunsuan.dir/30/02-juzhenyunsuan.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-juzhenyunsuan.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-juzhenyunsuan.exe
+  TARGET_IMPLIB = lib02-juzhenyunsuan.dll.a
+  TARGET_PDB = 02-juzhenyunsuan.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-zuobiaobianhuan_01
+
+
+#############################################
+# Order-only phony target for 01-zuobiaobianhuan_01
+
+build cmake_object_order_depends_target_01-zuobiaobianhuan_01: phony || .
+
+build CMakeFiles/01-zuobiaobianhuan_01.dir/31/01-zuobiaobianhuan_01.cpp.obj: CXX_COMPILER__01-zuobiaobianhuan_01_unscanned_Debug D$:/我的学习资源/CCF-CSP/31/01-zuobiaobianhuan_01.cpp || cmake_object_order_depends_target_01-zuobiaobianhuan_01
+  DEP_FILE = CMakeFiles\01-zuobiaobianhuan_01.dir\31\01-zuobiaobianhuan_01.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-zuobiaobianhuan_01.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-zuobiaobianhuan_01.dir\31
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-zuobiaobianhuan_01
+
+
+#############################################
+# Link the executable 01-zuobiaobianhuan_01.exe
+
+build 01-zuobiaobianhuan_01.exe: CXX_EXECUTABLE_LINKER__01-zuobiaobianhuan_01_Debug CMakeFiles/01-zuobiaobianhuan_01.dir/31/01-zuobiaobianhuan_01.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-zuobiaobianhuan_01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-zuobiaobianhuan_01.exe
+  TARGET_IMPLIB = lib01-zuobiaobianhuan_01.dll.a
+  TARGET_PDB = 01-zuobiaobianhuan_01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-zuobiaobianhuan_02
+
+
+#############################################
+# Order-only phony target for 02-zuobiaobianhuan_02
+
+build cmake_object_order_depends_target_02-zuobiaobianhuan_02: phony || .
+
+build CMakeFiles/02-zuobiaobianhuan_02.dir/31/02-zuobiaobianhuan_02.cpp.obj: CXX_COMPILER__02-zuobiaobianhuan_02_unscanned_Debug D$:/我的学习资源/CCF-CSP/31/02-zuobiaobianhuan_02.cpp || cmake_object_order_depends_target_02-zuobiaobianhuan_02
+  DEP_FILE = CMakeFiles\02-zuobiaobianhuan_02.dir\31\02-zuobiaobianhuan_02.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-zuobiaobianhuan_02.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-zuobiaobianhuan_02.dir\31
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-zuobiaobianhuan_02
+
+
+#############################################
+# Link the executable 02-zuobiaobianhuan_02.exe
+
+build 02-zuobiaobianhuan_02.exe: CXX_EXECUTABLE_LINKER__02-zuobiaobianhuan_02_Debug CMakeFiles/02-zuobiaobianhuan_02.dir/31/02-zuobiaobianhuan_02.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-zuobiaobianhuan_02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-zuobiaobianhuan_02.exe
+  TARGET_IMPLIB = lib02-zuobiaobianhuan_02.dll.a
+  TARGET_PDB = 02-zuobiaobianhuan_02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-cangkuguihua
+
+
+#############################################
+# Order-only phony target for 01-cangkuguihua
+
+build cmake_object_order_depends_target_01-cangkuguihua: phony || .
+
+build CMakeFiles/01-cangkuguihua.dir/32/01-cangkuguihua.cpp.obj: CXX_COMPILER__01-cangkuguihua_unscanned_Debug D$:/我的学习资源/CCF-CSP/32/01-cangkuguihua.cpp || cmake_object_order_depends_target_01-cangkuguihua
+  DEP_FILE = CMakeFiles\01-cangkuguihua.dir\32\01-cangkuguihua.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-cangkuguihua.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-cangkuguihua.dir\32
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-cangkuguihua
+
+
+#############################################
+# Link the executable 01-cangkuguihua.exe
+
+build 01-cangkuguihua.exe: CXX_EXECUTABLE_LINKER__01-cangkuguihua_Debug CMakeFiles/01-cangkuguihua.dir/32/01-cangkuguihua.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-cangkuguihua.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-cangkuguihua.exe
+  TARGET_IMPLIB = lib01-cangkuguihua.dll.a
+  TARGET_PDB = 01-cangkuguihua.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-yinzihuajian
+
+
+#############################################
+# Order-only phony target for 02-yinzihuajian
+
+build cmake_object_order_depends_target_02-yinzihuajian: phony || .
+
+build CMakeFiles/02-yinzihuajian.dir/32/02-yinzihuajian.cpp.obj: CXX_COMPILER__02-yinzihuajian_unscanned_Debug D$:/我的学习资源/CCF-CSP/32/02-yinzihuajian.cpp || cmake_object_order_depends_target_02-yinzihuajian
+  DEP_FILE = CMakeFiles\02-yinzihuajian.dir\32\02-yinzihuajian.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-yinzihuajian.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-yinzihuajian.dir\32
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-yinzihuajian
+
+
+#############################################
+# Link the executable 02-yinzihuajian.exe
+
+build 02-yinzihuajian.exe: CXX_EXECUTABLE_LINKER__02-yinzihuajian_Debug CMakeFiles/02-yinzihuajian.dir/32/02-yinzihuajian.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-yinzihuajian.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-yinzihuajian.exe
+  TARGET_IMPLIB = lib02-yinzihuajian.dll.a
+  TARGET_PDB = 02-yinzihuajian.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-cipintongji
+
+
+#############################################
+# Order-only phony target for 01-cipintongji
+
+build cmake_object_order_depends_target_01-cipintongji: phony || .
+
+build CMakeFiles/01-cipintongji.dir/33/01-cipintongji.cpp.obj: CXX_COMPILER__01-cipintongji_unscanned_Debug D$:/我的学习资源/CCF-CSP/33/01-cipintongji.cpp || cmake_object_order_depends_target_01-cipintongji
+  DEP_FILE = CMakeFiles\01-cipintongji.dir\33\01-cipintongji.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-cipintongji.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-cipintongji.dir\33
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-cipintongji
+
+
+#############################################
+# Link the executable 01-cipintongji.exe
+
+build 01-cipintongji.exe: CXX_EXECUTABLE_LINKER__01-cipintongji_Debug CMakeFiles/01-cipintongji.dir/33/01-cipintongji.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-cipintongji.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-cipintongji.exe
+  TARGET_IMPLIB = lib01-cipintongji.dll.a
+  TARGET_PDB = 01-cipintongji.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-xiangsidujisuan
+
+
+#############################################
+# Order-only phony target for 02-xiangsidujisuan
+
+build cmake_object_order_depends_target_02-xiangsidujisuan: phony || .
+
+build CMakeFiles/02-xiangsidujisuan.dir/33/02-xiangsidujisuan.cpp.obj: CXX_COMPILER__02-xiangsidujisuan_unscanned_Debug D$:/我的学习资源/CCF-CSP/33/02-xiangsidujisuan.cpp || cmake_object_order_depends_target_02-xiangsidujisuan
+  DEP_FILE = CMakeFiles\02-xiangsidujisuan.dir\33\02-xiangsidujisuan.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-xiangsidujisuan.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-xiangsidujisuan.dir\33
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-xiangsidujisuan
+
+
+#############################################
+# Link the executable 02-xiangsidujisuan.exe
+
+build 02-xiangsidujisuan.exe: CXX_EXECUTABLE_LINKER__02-xiangsidujisuan_Debug CMakeFiles/02-xiangsidujisuan.dir/33/02-xiangsidujisuan.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-xiangsidujisuan.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-xiangsidujisuan.exe
+  TARGET_IMPLIB = lib02-xiangsidujisuan.dll.a
+  TARGET_PDB = 02-xiangsidujisuan.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 01-juzhenchongsu_01
 
 
@@ -84,7 +414,7 @@ build cmake_object_order_depends_target_01-juzhenchongsu_01: phony || .
 
 build CMakeFiles/01-juzhenchongsu_01.dir/34/01-juzhenchongsu_01.cpp.obj: CXX_COMPILER__01-juzhenchongsu_01_unscanned_Debug D$:/我的学习资源/CCF-CSP/34/01-juzhenchongsu_01.cpp || cmake_object_order_depends_target_01-juzhenchongsu_01
   DEP_FILE = CMakeFiles\01-juzhenchongsu_01.dir\34\01-juzhenchongsu_01.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\01-juzhenchongsu_01.dir
   OBJECT_FILE_DIR = CMakeFiles\01-juzhenchongsu_01.dir\34
 
@@ -117,7 +447,7 @@ build cmake_object_order_depends_target_02-juzhenchongsu_02: phony || .
 
 build CMakeFiles/02-juzhenchongsu_02.dir/34/02-juzhenchongsu_02.cpp.obj: CXX_COMPILER__02-juzhenchongsu_02_unscanned_Debug D$:/我的学习资源/CCF-CSP/34/02-juzhenchongsu_02.cpp || cmake_object_order_depends_target_02-juzhenchongsu_02
   DEP_FILE = CMakeFiles\02-juzhenchongsu_02.dir\34\02-juzhenchongsu_02.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\02-juzhenchongsu_02.dir
   OBJECT_FILE_DIR = CMakeFiles\02-juzhenchongsu_02.dir\34
 
@@ -150,7 +480,7 @@ build cmake_object_order_depends_target_03-wenbenfenci: phony || .
 
 build CMakeFiles/03-wenbenfenci.dir/34/03-wenbenfenci.cpp.obj: CXX_COMPILER__03-wenbenfenci_unscanned_Debug D$:/我的学习资源/CCF-CSP/34/03-wenbenfenci.cpp || cmake_object_order_depends_target_03-wenbenfenci
   DEP_FILE = CMakeFiles\03-wenbenfenci.dir\34\03-wenbenfenci.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\03-wenbenfenci.dir
   OBJECT_FILE_DIR = CMakeFiles\03-wenbenfenci.dir\34
 
@@ -198,9 +528,29 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 01-cangkuguihua: phony 01-cangkuguihua.exe
+
+build 01-chongfujumian: phony 01-chongfujumian.exe
+
+build 01-cipintongji: phony 01-cipintongji.exe
+
 build 01-juzhenchongsu_01: phony 01-juzhenchongsu_01.exe
 
+build 01-tiandizhangliang: phony 01-tiandizhangliang.exe
+
+build 01-zuobiaobianhuan_01: phony 01-zuobiaobianhuan_01.exe
+
 build 02-juzhenchongsu_02: phony 02-juzhenchongsu_02.exe
+
+build 02-juzhenyunsuan: phony 02-juzhenyunsuan.exe
+
+build 02-kentianjihua: phony 02-kentianjihua.exe
+
+build 02-xiangsidujisuan: phony 02-xiangsidujisuan.exe
+
+build 02-yinzihuajian: phony 02-yinzihuajian.exe
+
+build 02-zuobiaobianhuan_02: phony 02-zuobiaobianhuan_02.exe
 
 build 03-wenbenfenci: phony 03-wenbenfenci.exe
 
@@ -214,7 +564,7 @@ build CCF_CSP: phony CCF_CSP.exe
 #############################################
 # Folder: D:/我的学习资源/CCF-CSP/cmake-build-debug
 
-build all: phony CCF_CSP.exe 01-juzhenchongsu_01.exe 02-juzhenchongsu_02.exe 03-wenbenfenci.exe
+build all: phony CCF_CSP.exe 01-tiandizhangliang.exe 02-kentianjihua.exe 01-chongfujumian.exe 02-juzhenyunsuan.exe 01-zuobiaobianhuan_01.exe 02-zuobiaobianhuan_02.exe 01-cangkuguihua.exe 02-yinzihuajian.exe 01-cipintongji.exe 02-xiangsidujisuan.exe 01-juzhenchongsu_01.exe 02-juzhenchongsu_02.exe 03-wenbenfenci.exe
 
 # =============================================================================
 # Built-in targets
