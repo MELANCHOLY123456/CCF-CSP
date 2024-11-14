@@ -129,6 +129,123 @@ CCF_CSP/fast:
 .PHONY : CCF_CSP/fast
 
 #=============================================================================
+# Target rules for targets named 01-xianzhijisuan
+
+# Build rule for target.
+01-xianzhijisuan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-xianzhijisuan
+.PHONY : 01-xianzhijisuan
+
+# fast build rule for target.
+01-xianzhijisuan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-xianzhijisuan.dir\build.make CMakeFiles/01-xianzhijisuan.dir/build
+.PHONY : 01-xianzhijisuan/fast
+
+#=============================================================================
+# Target rules for targets named 01-tiandizhangliang
+
+# Build rule for target.
+01-tiandizhangliang: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-tiandizhangliang
+.PHONY : 01-tiandizhangliang
+
+# fast build rule for target.
+01-tiandizhangliang/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-tiandizhangliang.dir\build.make CMakeFiles/01-tiandizhangliang.dir/build
+.PHONY : 01-tiandizhangliang/fast
+
+#=============================================================================
+# Target rules for targets named 02-kentianjihua
+
+# Build rule for target.
+02-kentianjihua: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-kentianjihua
+.PHONY : 02-kentianjihua
+
+# fast build rule for target.
+02-kentianjihua/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-kentianjihua.dir\build.make CMakeFiles/02-kentianjihua.dir/build
+.PHONY : 02-kentianjihua/fast
+
+#=============================================================================
+# Target rules for targets named 01-chongfujumian
+
+# Build rule for target.
+01-chongfujumian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-chongfujumian
+.PHONY : 01-chongfujumian
+
+# fast build rule for target.
+01-chongfujumian/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-chongfujumian.dir\build.make CMakeFiles/01-chongfujumian.dir/build
+.PHONY : 01-chongfujumian/fast
+
+#=============================================================================
+# Target rules for targets named 02-juzhenyunsuan
+
+# Build rule for target.
+02-juzhenyunsuan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-juzhenyunsuan
+.PHONY : 02-juzhenyunsuan
+
+# fast build rule for target.
+02-juzhenyunsuan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-juzhenyunsuan.dir\build.make CMakeFiles/02-juzhenyunsuan.dir/build
+.PHONY : 02-juzhenyunsuan/fast
+
+#=============================================================================
+# Target rules for targets named 01-zuobiaobianhuan_01
+
+# Build rule for target.
+01-zuobiaobianhuan_01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-zuobiaobianhuan_01
+.PHONY : 01-zuobiaobianhuan_01
+
+# fast build rule for target.
+01-zuobiaobianhuan_01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-zuobiaobianhuan_01.dir\build.make CMakeFiles/01-zuobiaobianhuan_01.dir/build
+.PHONY : 01-zuobiaobianhuan_01/fast
+
+#=============================================================================
+# Target rules for targets named 02-zuobiaobianhuan_02
+
+# Build rule for target.
+02-zuobiaobianhuan_02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-zuobiaobianhuan_02
+.PHONY : 02-zuobiaobianhuan_02
+
+# fast build rule for target.
+02-zuobiaobianhuan_02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-zuobiaobianhuan_02.dir\build.make CMakeFiles/02-zuobiaobianhuan_02.dir/build
+.PHONY : 02-zuobiaobianhuan_02/fast
+
+#=============================================================================
+# Target rules for targets named 01-cangkuguihua
+
+# Build rule for target.
+01-cangkuguihua: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01-cangkuguihua
+.PHONY : 01-cangkuguihua
+
+# fast build rule for target.
+01-cangkuguihua/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-cangkuguihua.dir\build.make CMakeFiles/01-cangkuguihua.dir/build
+.PHONY : 01-cangkuguihua/fast
+
+#=============================================================================
+# Target rules for targets named 02-yinzihuajian
+
+# Build rule for target.
+02-yinzihuajian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02-yinzihuajian
+.PHONY : 02-yinzihuajian
+
+# fast build rule for target.
+02-yinzihuajian/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-yinzihuajian.dir\build.make CMakeFiles/02-yinzihuajian.dir/build
+.PHONY : 02-yinzihuajian/fast
+
+#=============================================================================
 # Target rules for targets named 01-cipintongji
 
 # Build rule for target.
@@ -192,6 +309,222 @@ CCF_CSP/fast:
 03-wenbenfenci/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\03-wenbenfenci.dir\build.make CMakeFiles/03-wenbenfenci.dir/build
 .PHONY : 03-wenbenfenci/fast
+
+28/01-xianzhijisuan.obj: 28/01-xianzhijisuan.cpp.obj
+.PHONY : 28/01-xianzhijisuan.obj
+
+# target to build an object file
+28/01-xianzhijisuan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-xianzhijisuan.dir\build.make CMakeFiles/01-xianzhijisuan.dir/28/01-xianzhijisuan.cpp.obj
+.PHONY : 28/01-xianzhijisuan.cpp.obj
+
+28/01-xianzhijisuan.i: 28/01-xianzhijisuan.cpp.i
+.PHONY : 28/01-xianzhijisuan.i
+
+# target to preprocess a source file
+28/01-xianzhijisuan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-xianzhijisuan.dir\build.make CMakeFiles/01-xianzhijisuan.dir/28/01-xianzhijisuan.cpp.i
+.PHONY : 28/01-xianzhijisuan.cpp.i
+
+28/01-xianzhijisuan.s: 28/01-xianzhijisuan.cpp.s
+.PHONY : 28/01-xianzhijisuan.s
+
+# target to generate assembly for a file
+28/01-xianzhijisuan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-xianzhijisuan.dir\build.make CMakeFiles/01-xianzhijisuan.dir/28/01-xianzhijisuan.cpp.s
+.PHONY : 28/01-xianzhijisuan.cpp.s
+
+29/01-tiandizhangliang.obj: 29/01-tiandizhangliang.cpp.obj
+.PHONY : 29/01-tiandizhangliang.obj
+
+# target to build an object file
+29/01-tiandizhangliang.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-tiandizhangliang.dir\build.make CMakeFiles/01-tiandizhangliang.dir/29/01-tiandizhangliang.cpp.obj
+.PHONY : 29/01-tiandizhangliang.cpp.obj
+
+29/01-tiandizhangliang.i: 29/01-tiandizhangliang.cpp.i
+.PHONY : 29/01-tiandizhangliang.i
+
+# target to preprocess a source file
+29/01-tiandizhangliang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-tiandizhangliang.dir\build.make CMakeFiles/01-tiandizhangliang.dir/29/01-tiandizhangliang.cpp.i
+.PHONY : 29/01-tiandizhangliang.cpp.i
+
+29/01-tiandizhangliang.s: 29/01-tiandizhangliang.cpp.s
+.PHONY : 29/01-tiandizhangliang.s
+
+# target to generate assembly for a file
+29/01-tiandizhangliang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-tiandizhangliang.dir\build.make CMakeFiles/01-tiandizhangliang.dir/29/01-tiandizhangliang.cpp.s
+.PHONY : 29/01-tiandizhangliang.cpp.s
+
+29/02-kentianjihua.obj: 29/02-kentianjihua.cpp.obj
+.PHONY : 29/02-kentianjihua.obj
+
+# target to build an object file
+29/02-kentianjihua.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-kentianjihua.dir\build.make CMakeFiles/02-kentianjihua.dir/29/02-kentianjihua.cpp.obj
+.PHONY : 29/02-kentianjihua.cpp.obj
+
+29/02-kentianjihua.i: 29/02-kentianjihua.cpp.i
+.PHONY : 29/02-kentianjihua.i
+
+# target to preprocess a source file
+29/02-kentianjihua.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-kentianjihua.dir\build.make CMakeFiles/02-kentianjihua.dir/29/02-kentianjihua.cpp.i
+.PHONY : 29/02-kentianjihua.cpp.i
+
+29/02-kentianjihua.s: 29/02-kentianjihua.cpp.s
+.PHONY : 29/02-kentianjihua.s
+
+# target to generate assembly for a file
+29/02-kentianjihua.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-kentianjihua.dir\build.make CMakeFiles/02-kentianjihua.dir/29/02-kentianjihua.cpp.s
+.PHONY : 29/02-kentianjihua.cpp.s
+
+30/01-chongfujumian.obj: 30/01-chongfujumian.cpp.obj
+.PHONY : 30/01-chongfujumian.obj
+
+# target to build an object file
+30/01-chongfujumian.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-chongfujumian.dir\build.make CMakeFiles/01-chongfujumian.dir/30/01-chongfujumian.cpp.obj
+.PHONY : 30/01-chongfujumian.cpp.obj
+
+30/01-chongfujumian.i: 30/01-chongfujumian.cpp.i
+.PHONY : 30/01-chongfujumian.i
+
+# target to preprocess a source file
+30/01-chongfujumian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-chongfujumian.dir\build.make CMakeFiles/01-chongfujumian.dir/30/01-chongfujumian.cpp.i
+.PHONY : 30/01-chongfujumian.cpp.i
+
+30/01-chongfujumian.s: 30/01-chongfujumian.cpp.s
+.PHONY : 30/01-chongfujumian.s
+
+# target to generate assembly for a file
+30/01-chongfujumian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-chongfujumian.dir\build.make CMakeFiles/01-chongfujumian.dir/30/01-chongfujumian.cpp.s
+.PHONY : 30/01-chongfujumian.cpp.s
+
+30/02-juzhenyunsuan.obj: 30/02-juzhenyunsuan.cpp.obj
+.PHONY : 30/02-juzhenyunsuan.obj
+
+# target to build an object file
+30/02-juzhenyunsuan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-juzhenyunsuan.dir\build.make CMakeFiles/02-juzhenyunsuan.dir/30/02-juzhenyunsuan.cpp.obj
+.PHONY : 30/02-juzhenyunsuan.cpp.obj
+
+30/02-juzhenyunsuan.i: 30/02-juzhenyunsuan.cpp.i
+.PHONY : 30/02-juzhenyunsuan.i
+
+# target to preprocess a source file
+30/02-juzhenyunsuan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-juzhenyunsuan.dir\build.make CMakeFiles/02-juzhenyunsuan.dir/30/02-juzhenyunsuan.cpp.i
+.PHONY : 30/02-juzhenyunsuan.cpp.i
+
+30/02-juzhenyunsuan.s: 30/02-juzhenyunsuan.cpp.s
+.PHONY : 30/02-juzhenyunsuan.s
+
+# target to generate assembly for a file
+30/02-juzhenyunsuan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-juzhenyunsuan.dir\build.make CMakeFiles/02-juzhenyunsuan.dir/30/02-juzhenyunsuan.cpp.s
+.PHONY : 30/02-juzhenyunsuan.cpp.s
+
+31/01-zuobiaobianhuan_01.obj: 31/01-zuobiaobianhuan_01.cpp.obj
+.PHONY : 31/01-zuobiaobianhuan_01.obj
+
+# target to build an object file
+31/01-zuobiaobianhuan_01.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-zuobiaobianhuan_01.dir\build.make CMakeFiles/01-zuobiaobianhuan_01.dir/31/01-zuobiaobianhuan_01.cpp.obj
+.PHONY : 31/01-zuobiaobianhuan_01.cpp.obj
+
+31/01-zuobiaobianhuan_01.i: 31/01-zuobiaobianhuan_01.cpp.i
+.PHONY : 31/01-zuobiaobianhuan_01.i
+
+# target to preprocess a source file
+31/01-zuobiaobianhuan_01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-zuobiaobianhuan_01.dir\build.make CMakeFiles/01-zuobiaobianhuan_01.dir/31/01-zuobiaobianhuan_01.cpp.i
+.PHONY : 31/01-zuobiaobianhuan_01.cpp.i
+
+31/01-zuobiaobianhuan_01.s: 31/01-zuobiaobianhuan_01.cpp.s
+.PHONY : 31/01-zuobiaobianhuan_01.s
+
+# target to generate assembly for a file
+31/01-zuobiaobianhuan_01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-zuobiaobianhuan_01.dir\build.make CMakeFiles/01-zuobiaobianhuan_01.dir/31/01-zuobiaobianhuan_01.cpp.s
+.PHONY : 31/01-zuobiaobianhuan_01.cpp.s
+
+31/02-zuobiaobianhuan_02.obj: 31/02-zuobiaobianhuan_02.cpp.obj
+.PHONY : 31/02-zuobiaobianhuan_02.obj
+
+# target to build an object file
+31/02-zuobiaobianhuan_02.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-zuobiaobianhuan_02.dir\build.make CMakeFiles/02-zuobiaobianhuan_02.dir/31/02-zuobiaobianhuan_02.cpp.obj
+.PHONY : 31/02-zuobiaobianhuan_02.cpp.obj
+
+31/02-zuobiaobianhuan_02.i: 31/02-zuobiaobianhuan_02.cpp.i
+.PHONY : 31/02-zuobiaobianhuan_02.i
+
+# target to preprocess a source file
+31/02-zuobiaobianhuan_02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-zuobiaobianhuan_02.dir\build.make CMakeFiles/02-zuobiaobianhuan_02.dir/31/02-zuobiaobianhuan_02.cpp.i
+.PHONY : 31/02-zuobiaobianhuan_02.cpp.i
+
+31/02-zuobiaobianhuan_02.s: 31/02-zuobiaobianhuan_02.cpp.s
+.PHONY : 31/02-zuobiaobianhuan_02.s
+
+# target to generate assembly for a file
+31/02-zuobiaobianhuan_02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-zuobiaobianhuan_02.dir\build.make CMakeFiles/02-zuobiaobianhuan_02.dir/31/02-zuobiaobianhuan_02.cpp.s
+.PHONY : 31/02-zuobiaobianhuan_02.cpp.s
+
+32/01-cangkuguihua.obj: 32/01-cangkuguihua.cpp.obj
+.PHONY : 32/01-cangkuguihua.obj
+
+# target to build an object file
+32/01-cangkuguihua.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-cangkuguihua.dir\build.make CMakeFiles/01-cangkuguihua.dir/32/01-cangkuguihua.cpp.obj
+.PHONY : 32/01-cangkuguihua.cpp.obj
+
+32/01-cangkuguihua.i: 32/01-cangkuguihua.cpp.i
+.PHONY : 32/01-cangkuguihua.i
+
+# target to preprocess a source file
+32/01-cangkuguihua.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-cangkuguihua.dir\build.make CMakeFiles/01-cangkuguihua.dir/32/01-cangkuguihua.cpp.i
+.PHONY : 32/01-cangkuguihua.cpp.i
+
+32/01-cangkuguihua.s: 32/01-cangkuguihua.cpp.s
+.PHONY : 32/01-cangkuguihua.s
+
+# target to generate assembly for a file
+32/01-cangkuguihua.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01-cangkuguihua.dir\build.make CMakeFiles/01-cangkuguihua.dir/32/01-cangkuguihua.cpp.s
+.PHONY : 32/01-cangkuguihua.cpp.s
+
+32/02-yinzihuajian.obj: 32/02-yinzihuajian.cpp.obj
+.PHONY : 32/02-yinzihuajian.obj
+
+# target to build an object file
+32/02-yinzihuajian.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-yinzihuajian.dir\build.make CMakeFiles/02-yinzihuajian.dir/32/02-yinzihuajian.cpp.obj
+.PHONY : 32/02-yinzihuajian.cpp.obj
+
+32/02-yinzihuajian.i: 32/02-yinzihuajian.cpp.i
+.PHONY : 32/02-yinzihuajian.i
+
+# target to preprocess a source file
+32/02-yinzihuajian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-yinzihuajian.dir\build.make CMakeFiles/02-yinzihuajian.dir/32/02-yinzihuajian.cpp.i
+.PHONY : 32/02-yinzihuajian.cpp.i
+
+32/02-yinzihuajian.s: 32/02-yinzihuajian.cpp.s
+.PHONY : 32/02-yinzihuajian.s
+
+# target to generate assembly for a file
+32/02-yinzihuajian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02-yinzihuajian.dir\build.make CMakeFiles/02-yinzihuajian.dir/32/02-yinzihuajian.cpp.s
+.PHONY : 32/02-yinzihuajian.cpp.s
 
 33/01-cipintongji.obj: 33/01-cipintongji.cpp.obj
 .PHONY : 33/01-cipintongji.obj
@@ -345,12 +678,48 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 01-cangkuguihua
+	@echo ... 01-chongfujumian
 	@echo ... 01-cipintongji
 	@echo ... 01-juzhenchongsu_01
+	@echo ... 01-tiandizhangliang
+	@echo ... 01-xianzhijisuan
+	@echo ... 01-zuobiaobianhuan_01
 	@echo ... 02-juzhenchongsu_02
+	@echo ... 02-juzhenyunsuan
+	@echo ... 02-kentianjihua
 	@echo ... 02-xiangsidujisuan
+	@echo ... 02-yinzihuajian
+	@echo ... 02-zuobiaobianhuan_02
 	@echo ... 03-wenbenfenci
 	@echo ... CCF_CSP
+	@echo ... 28/01-xianzhijisuan.obj
+	@echo ... 28/01-xianzhijisuan.i
+	@echo ... 28/01-xianzhijisuan.s
+	@echo ... 29/01-tiandizhangliang.obj
+	@echo ... 29/01-tiandizhangliang.i
+	@echo ... 29/01-tiandizhangliang.s
+	@echo ... 29/02-kentianjihua.obj
+	@echo ... 29/02-kentianjihua.i
+	@echo ... 29/02-kentianjihua.s
+	@echo ... 30/01-chongfujumian.obj
+	@echo ... 30/01-chongfujumian.i
+	@echo ... 30/01-chongfujumian.s
+	@echo ... 30/02-juzhenyunsuan.obj
+	@echo ... 30/02-juzhenyunsuan.i
+	@echo ... 30/02-juzhenyunsuan.s
+	@echo ... 31/01-zuobiaobianhuan_01.obj
+	@echo ... 31/01-zuobiaobianhuan_01.i
+	@echo ... 31/01-zuobiaobianhuan_01.s
+	@echo ... 31/02-zuobiaobianhuan_02.obj
+	@echo ... 31/02-zuobiaobianhuan_02.i
+	@echo ... 31/02-zuobiaobianhuan_02.s
+	@echo ... 32/01-cangkuguihua.obj
+	@echo ... 32/01-cangkuguihua.i
+	@echo ... 32/01-cangkuguihua.s
+	@echo ... 32/02-yinzihuajian.obj
+	@echo ... 32/02-yinzihuajian.i
+	@echo ... 32/02-yinzihuajian.s
 	@echo ... 33/01-cipintongji.obj
 	@echo ... 33/01-cipintongji.i
 	@echo ... 33/01-cipintongji.s
